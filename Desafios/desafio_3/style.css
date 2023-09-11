@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(107, 107, 241);
+    font: normal 15pt arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 50vw;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.341);
+}
+
+div{
+    text-align: center;
+    padding:  1rem;
+}
+
+div.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+footer{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
